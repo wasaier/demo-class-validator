@@ -29,3 +29,8 @@ const albumJson = {
 let album = plainToClass(Album, albumJson);
 console.log(album);
 // now album is Album object with Photo objects inside
+// Album {
+//   id: 1,
+//   name: 'tony',
+//   photos: [ Photo { id: 1, filename: 'tom' } ]
+// }

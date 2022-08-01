@@ -1,4 +1,4 @@
-import { Contains, Length, validateSync, IsArray, MaxLength } from "class-validator";
+import { Length, validateSync, MaxLength } from "class-validator";
 
 export class Post {
   @MaxLength(10, {

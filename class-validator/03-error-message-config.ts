@@ -7,6 +7,7 @@ import { MinLength, MaxLength, validateSync } from 'class-validator';
 
 export class Post {
   @MinLength(10, {
+    // message 支持模版
     // here, $constraint1 will be replaced with "10", and $value with actual supplied value
     message: 'Title is too short. Minimal length is $constraint1 characters, but actual is $value',
   })
